@@ -1,0 +1,15 @@
+{
+  "name": "youtube",
+  "version": "19.24.35",
+  "description": "Youtube video app",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hara",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "slugify": "^1.6.6"
+  }
+}
