@@ -19,8 +19,10 @@ const rl = readline.createInterface({
 rl.question("Enter your name: ", (userName) => {
   rl.question("Enter your age: ", (age) => {
     rl.question("Enter your roll number: ", (roll) => {
-      console.log(`\nName: ${userName}\nAge: ${age}\nRoll Number: ${roll}`);
-      rl.close();
+        rl.question("Enter Department : ", (userDept)=>{
+            console.log(`\nName: ${userName}\nAge: ${age}\nRoll Number: ${roll}\nDepartment : ${userDept}`);
+            rl.close();
+        })
     });
   });
 });
