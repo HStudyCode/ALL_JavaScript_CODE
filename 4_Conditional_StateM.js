@@ -9,3 +9,8 @@ if (age >= 18) {
 }else{
     console.log("You cannot vote yet.");
 }
+
+// Ternary operator
+
+let userAge = 8;
+let drink = userAge>= 5? "coffee" : "milk";
