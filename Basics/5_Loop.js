@@ -20,16 +20,16 @@
 
 // //While loop
 
-// let i = 0;
-// while(i<=5){
-// console.log("i= ",i);
-// i++;
-// }
+let i = 0;
+while(i<=5){
+console.log("i= ",i);
+i++;
+}
 
 
 //Do while loop
-let i = 0;
-do {
-    console.log("i= ", i);
-    i++;
-} while (i <= 5);
+// let i = 0;
+// do {
+//     console.log("i= ", i);
+//     i++;
+// } while (i <= 5);
